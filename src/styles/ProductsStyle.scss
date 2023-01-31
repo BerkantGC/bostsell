@@ -1,0 +1,14 @@
+.months-product-container{
+    background-color: rgba(0,0,0, 0.5);;
+    margin: 10px 10px 10px 100px;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+    :hover{
+        cursor: pointer;
+    }
+}

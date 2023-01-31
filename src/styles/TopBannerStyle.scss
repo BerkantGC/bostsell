@@ -1,0 +1,18 @@
+.main-container{
+    background-color: #0a1e53;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.left-side-banner{
+    margin-left: 10%;
+    display: flex;
+}
+.right-side-banner{
+    object-fit: contain;
+    margin-right: 25px;
+}
+.company-name{
+    color: white;
+    font-size: 20px;
+}
