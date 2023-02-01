@@ -5,14 +5,25 @@
     align-items: center;
 }
 .left-side-banner{
-    margin-left: 10%;
     display: flex;
+    flex: 1;
 }
 .right-side-banner{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+.logo{
+    margin-left: 15%;
     object-fit: contain;
     margin-right: 25px;
 }
 .company-name{
     color: white;
     font-size: 20px;
+}
+.topbanner-links{
+    color: white;
+    text-decoration: none;
 }

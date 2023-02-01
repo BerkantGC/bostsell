@@ -13,10 +13,12 @@ function Main() {
     <div>
       <TopBanner/>
       <MidBanner/>
-      <div className='products-container'>
-        <ProductOfMonth/>
-        <BrandNewProducts/>
-      </div>
+        <div className='products-all-container'>
+          <div className='products-container'>
+            <ProductOfMonth/>
+            <BrandNewProducts/>
+          </div>
+        </div>
       <Partnership/>
       <BottomBanner/>
     </div>

@@ -16,19 +16,19 @@ const Partnership = () => {
             </div>
             <div className="ps-container">
                 <div>
-                    <img src={philipsLogo} width={window.innerWidth/8} />
+                    <img src={philipsLogo} width={window.innerWidth/9} />
                 </div>
                 <div>
-                    <img src={sandiskLogo} width={window.innerWidth/8} />
+                    <img src={sandiskLogo} width={window.innerWidth/9} />
                 </div>
                 <div>
-                    <img src={ttecLogo} width={window.innerWidth/8} />
+                    <img src={ttecLogo} width={window.innerWidth/9} />
                 </div>
                 <div>
-                    <img src={powerwayLogo} width={window.innerWidth/8} />
+                    <img src={powerwayLogo} width={window.innerWidth/9} />
                 </div>
                 <div>
-                    <img src={deximLogo} width={window.innerWidth/8} />
+                    <img src={deximLogo} width={window.innerWidth/9} />
                 </div>
             </div>
         </div>

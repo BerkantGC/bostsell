@@ -1,23 +1,17 @@
 .brandnews-container{
     background-color: rgba(0,0,0, 0.5);;
-    margin: 10px 100px 10px 10px;
+    margin: 10px 10% 10px 10px;
     height: 35rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     border-radius: 10px;
     padding: 5px
 }
 .each-product{
-    width: 400px;
+    width: 100%;
     :hover{
             cursor: pointer;
-    }
-}
-.product-image{
-    width: 100%;
-    overflow: hidden;
-    :hover{
-        transform: scale(1.1);
     }
 }

@@ -1,8 +1,12 @@
-.products-container{
+.products-all-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
     justify-content: center;
-    margin: 5% 2% 5% 2%;
     text-align: center;
     align-items: center;
+}
+.products-container{
+    display: grid;
+    margin: 5% 2% 5% 2%;
+    grid-template-columns: 1fr 1fr;
+
 }
