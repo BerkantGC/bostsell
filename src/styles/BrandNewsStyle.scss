@@ -7,14 +7,7 @@
     border-radius: 10px;
     width: 100%;
     height: 100%;
-}
-.slider-container{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: red;
+
 }
 .each_product_browser{
     width: 400px;
@@ -26,8 +19,6 @@
 }
 .each-product-img-container{
     display: flex;
-    width: 100%;
-    height: 100%;
     justify-content: center;
     align-items: center;
     :hover{
