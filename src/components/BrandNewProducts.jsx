@@ -34,16 +34,19 @@ const slideImages = [
 
 const spanStyle = {
   padding: '20px',
+  width : '100%',
+  height: '100%',
 
   color: '#000000'
 }
 
 const divStyle = {
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
   backgroundSize: 'cover',
-  height: "400px"
+  height: "100%",
+  width: '100%',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
 }
 
 const BrandNewProducts = () => {
@@ -52,11 +55,11 @@ const BrandNewProducts = () => {
         <div style={{marginBottom: 10}}>
           <h2>En Yeni Ürünler</h2>
         </div>
-        <div className="each-product" style={{width: window.innerWidth/4}}>
+        <div className="each-product" style={{width: window.innerWidth/3}}>
             <Slide transitionDuration={500} className="slider-container">
                 {slideImages.map((slideImage, index) => 
                 (
-                <div key={index}>
+                <div className='each-product-img-container' style={{height: window.innerHeight/3}} key={index}>
                   <a href={`/urunler/${slideImage.link}`} style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
                     <span style={spanStyle}></span>
                   </a>
