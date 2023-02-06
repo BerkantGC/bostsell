@@ -7,6 +7,6 @@
 .products-container{
     display: grid;
     margin: 5% 2% 5% 2%;
+    gap: 2%;
     grid-template-columns: 1fr 1fr;
-
 }

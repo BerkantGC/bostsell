@@ -41,12 +41,8 @@ const spanStyle = {
 }
 
 const divStyle = {
-  backgroundSize: 'cover',
-  height: "100%",
-  width: '100%',
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
+  width: '300px',
+  height: '300px'
 }
 
 const BrandNewProducts = () => {
@@ -55,18 +51,20 @@ const BrandNewProducts = () => {
         <div style={{marginBottom: 10}}>
           <h2>En Yeni Ürünler</h2>
         </div>
-        <div className="each-product" style={{width: window.innerWidth/3}}>
-            <Slide transitionDuration={500} className="slider-container">
-                {slideImages.map((slideImage, index) => 
-                (
-                <div className='each-product-img-container' style={{height: window.innerHeight/3}} key={index}>
-                  <a href={`/urunler/${slideImage.link}`} style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
-                    <span style={spanStyle}></span>
-                  </a>
-                </div>                
-                )
-                )}     
-            </Slide>
+        <div className={`${window.innerWidth > 600 ? "each_product_browser" : 'each_product_mobile'}`}>
+          <Slide transitionDuration={500} className="slider-container">
+              {slideImages.map((slideImage, index) => 
+              (
+              <div className='each-product-img-container' key={index}>
+                <a href={`/urunler/${slideImage.link}`} style={{backgroundImage: `url(${slideImage.url})`, height: window.innerHeight/3,
+                width: window.innerWidth/3, justifyContent: 'center', alignContent: 'center', backgroundSize: 'contain', backgroundPosition : 'center' }} 
+                className='each-product-img'>
+                </a>
+    
+              </div>                
+              )
+              )}     
+          </Slide>
         </div>
       </div>  
     );

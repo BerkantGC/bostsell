@@ -1,28 +1,44 @@
 .brandnews-container{
     background-color: rgba(0,0,0, 0.5);;
-    margin: 10px 10% 10px 10px;
-    height: 35rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    padding: 5px
+    width: 100%;
+    height: 100%;
 }
 .slider-container{
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
 }
-.each-product{
-    width: 100%;
-    height: 100%;
-    margin-top: 15%
+.each_product_browser{
+    width: 400px;
+    height: 400px;
+}
+.each_product_mobile{
+    width: 150px;
+    height: 300px;
 }
 .each-product-img-container{
     display: flex;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     :hover{
             cursor: pointer;
     }
+}
+.each-product-img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
