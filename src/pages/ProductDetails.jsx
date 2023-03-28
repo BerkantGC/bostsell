@@ -8,7 +8,7 @@ import caseImage from '../components/images/case.png';
 import adapterImage from '../components/images/adapter.png';
 import airpodsImage from '../components/images/Apple-Airpods-PNG-Clipart.png';
 import headphoneImage from '../components/images/Wireless-Headphone-PNG-HD-Quality.png';
-import powerbank from '../components/images/powerbank.png';
+import kulaklikImage from '../components/images/ibost-kulaklik.jpg';
 
 const airpodsDescrip = () => {
     return(
@@ -82,9 +82,9 @@ const productInfos = [
         description: adapterDescrip
       },
       {
-        image: powerbank,
-        link: "powerbank",
-        title: "POWERBANK",
+        image: kulaklikImage,
+        link: "ibost-kulaklik",
+        title: "KULAKLIK",
         description: caseDescription
       }
 ]

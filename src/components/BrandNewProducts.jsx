@@ -1,4 +1,4 @@
-import caseImage from './images/case.png';
+import ibost_headphone from './images/iBOST-kulaklik5.png';
 import adapterImage from './images/adapter.png';
 import airpodsImage from './images/Apple-Airpods-PNG-Clipart.png';
 import headphoneImage from './images/Wireless-Headphone-PNG-HD-Quality.png';
@@ -11,9 +11,9 @@ import 'react-slideshow-image/dist/styles.css'
 
 const slideImages = [
   {
-    url: caseImage,
+    url: ibost_headphone,
     caption: 'Slide 1',
-    link: "kilif"
+    link: "ibost-kulaklik"
   },
   {
     url: adapterImage,
@@ -41,8 +41,8 @@ const spanStyle = {
 }
 
 const divStyle = {
-  width: '300px',
-  height: '300px'
+  width: '350px',
+  height: '350px'
 }
 
 const BrandNewProducts = () => {
@@ -56,8 +56,8 @@ const BrandNewProducts = () => {
               {slideImages.map((slideImage, index) => 
               (
               <div className='each-product-img-container' key={index}>
-                <a href={`/urunler/${slideImage.link}`} style={{backgroundImage: `url(${slideImage.url})`, height: window.innerHeight/3,
-                width: window.innerWidth/3, justifyContent: 'center', alignContent: 'center', backgroundSize: 'contain', backgroundPosition : 'center' }} 
+                <a href={`/urunler/${slideImage.link}`} style={{backgroundImage: `url(${slideImage.url})`, height: window.innerHeight/2,
+                width: window.innerWidth/2, justifyContent: 'center', alignContent: 'center', backgroundSize: 'contain', backgroundPosition : 'center' }} 
                 className='each-product-img'>
                 </a>
     

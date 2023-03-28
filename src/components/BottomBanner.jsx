@@ -27,9 +27,8 @@ export default function()
                 <div className="comm-container">
                     <h3 style={{color: 'white'}}>İletişim</h3>
                     <p style={{color: 'white', fontSize: '90%'}}>Şehirler bulvarı no.2c Bostanlı MH.  Karşıyaka İzmir</p>
-                    <p style={{color: 'white', fontSize: '90%'}}>Telefon: +90 212 364 64 64<br></br>
-                    Faks: +90 212 310 46 80<br/>
-                    E-mail: bost@bost-sell.com.tr</p>
+                    <p style={{color: 'white', fontSize: '90%'}}>Telefon: +90 539 42 42 678<br></br>
+                    E-mail: i.bostdestek@gmail.com</p>
                 </div>
             </div>
             <div className='all-links'>
