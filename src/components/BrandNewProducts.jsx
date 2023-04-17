@@ -1,7 +1,8 @@
 import ibost_headphone from './images/iBOST-kulaklik5.png';
-import adapterImage from './images/adapter.png';
-import airpodsImage from './images/Apple-Airpods-PNG-Clipart.png';
-import headphoneImage from './images/Wireless-Headphone-PNG-HD-Quality.png';
+import adapterImage from './images/04-ibost.jpg';
+import kirilmazCam from './images/kirilmaz-cam.png';
+
+
 
 import '../styles/BrandNewsStyle.scss';
  import { Navigate } from 'react-router-dom';
@@ -18,18 +19,13 @@ const slideImages = [
   {
     url: adapterImage,
     caption: 'Slide 2',
-    link: "sarj-adaptoru"
+    link: "ibost-kulaklik"
   },
   {
-    url: airpodsImage,
+    url: kirilmazCam,
     caption: 'Slide 3',
-    link: "airpods"
+    link: "kirilmaz-cam"
   },
-  {
-    url: headphoneImage,
-    caption: 'Slide 4',
-    link: "kulaklik"
-  }
 ];
 
 const spanStyle = {

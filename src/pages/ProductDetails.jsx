@@ -4,11 +4,10 @@ import BottomBanner from "../components/BottomBanner";
 
 import "../styles/ProductDetailsStyle.scss";
 
-import caseImage from '../components/images/case.png';
-import adapterImage from '../components/images/adapter.png';
-import airpodsImage from '../components/images/Apple-Airpods-PNG-Clipart.png';
-import headphoneImage from '../components/images/Wireless-Headphone-PNG-HD-Quality.png';
+import caseImage from '../components/images/DetailedAirphone.png';
+import airpodsImage from '../components/images/04-ibost.jpg';
 import kulaklikImage from '../components/images/ibost-kulaklik.jpg';
+import kirilmazCam from '../components/images/kirilmaz-cam.png';
 
 const airpodsDescrip = () => {
     return(
@@ -59,16 +58,11 @@ Adaptör, Kablo, Kablolu kulaklık, Kılıf gibi aksesuar ürünlerinde garanti 
 const productInfos = [
     {
         image: caseImage,
-        link: "kilif",
-        title: "KILIF",
+        link: "kulaklik",
+        title: "KULAKLIK",
         description: caseDescription
       },
-      {
-        image: adapterImage,
-        link: "sarj-adaptoru",
-        title: "ŞARJ ADAPTÖRÜ",
-        description: adapterDescrip
-      },
+
       {
         image: airpodsImage,
         link: "airpods",
@@ -76,15 +70,15 @@ const productInfos = [
         description: airpodsDescrip
       },
       {
-        image: headphoneImage,
-        link: "kulaklik",
-        title: "KULAKLIK",
-        description: adapterDescrip
-      },
-      {
         image: kulaklikImage,
         link: "ibost-kulaklik",
         title: "KULAKLIK",
+        description: caseDescription
+      },
+      {
+        image: kirilmazCam,
+        link: "kirilmaz-cam",
+        title: "KIRILMAZ CAM",
         description: caseDescription
       }
 ]
